@@ -14,4 +14,52 @@
 6- If no error then it means your local directroy successsfully connected to the Github and your repo in git hub
 
 7- Now pull the file from Git hub to your local repo or directory
-   git pull original master
+       git pull original master
+	it will fetch all the file from your Github repo
+	git pull is how you get the update file from the github
+
+8-  commands: 
+	i- git status --> will tell you which files are added to index
+	ii - git add --> will tell you add files to your index
+	iii- git commi -a  -m -->  it refres to recording snapshot of the repo at a given time
+			--> committed snapshots will never chage unlss done explicitly. -m is for 		message and -a mean all files
+        iv - git branch --> check which branch you are working on itl
+	v-  git log --> show how the file store with commit and show all committed files in your l
+			localy
+	vi -git branch secondbranch --> this command you can create a new branch out of master bar					anch
+        vii -  git checkout secondbranch --> to move one branch to another 
+        viii- git stash --> while working on new feature and you don't want to add in your develoe				ment branch you can keep it seperate to your developent branch 
+	viv- git stach apply--> when you want to add stash branch to your development branch
+
+	vv - git merge --> git merge your secondbranch to master branch. in order to merge it             			first go to your master branch and then give command git merge
+        viv- git fetch --> same as git pull but git fetch pull all the file b  
+				but keep in differnt branch not in your local master wherein git
+				pull pull all the file in your local master branch. git pull is eq				equal to git fetch and merge to master. git fetch you have to do git 				  merge to master branch in you master branch
+
+
+9- Rebasing - this is also the way of combining the work between different branches. it can be s
+		used to make a liner sequence of commits. rebasing put all the changes of differnt 		  branch to tip of the master branch it is much cleaner in this sense instead making 		    two parallel branch it will add all the changes history in  new branch in the tip
+ 		of the master.it reducing the more branches. 
+
+   git rebase  master --> we need to go to the branch we want to rebase and give this command git
+			  rebase master so that way all the master chnages will be in that branch(
+ 			  in our example of second branch).
+
+ git rebase secondbranch if we want to rebase master with our second branch we need to go to
+                          master branch and give this command git rebase <branch name> 
+  		          that way first branch is update with whateever changes in the master
+		          branch and  that way all the changes in secondbranch will add tip of
+		       	  the master branch. liner way like 0-->0-->0 where is 0 are changes 
+
+
+
+10- git push - 
+
+
+
+ 
+9
+
+
+	
+    
