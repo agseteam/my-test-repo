@@ -1,0 +1,17 @@
+1- - Go to terminal and create a dir/local repo. run this command to initiazile with git that way we can use command to connect to GitHUB and pull and push the files and folder:
+	git init 
+  it will create a .git file check with command ls -a
+
+2- Create a account in GitHub and create a repo there with public and initilize the read me (optional but good idea mine is agseateam12gmail.com and pwd 786rehman)
+
+3- once you created a repo go to and left hand side it say clone or download click on it
+
+4-  use HTTPS and copy the url
+
+5- Go to your local terminal and go to the dir/repo I have created in step 1 and run this command to connect to the GITHub and your repo
+   in the GIT hub:
+	git remote add origin "https://github.com/agseteam/my-test-repo.git" and click eneter
+6- If no error then it means your local directroy successsfully connected to the Github and your repo in git hub
+
+7- Now pull the file from Git hub to your local repo or directory
+   git pull original master
